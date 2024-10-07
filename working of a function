@@ -1,0 +1,20 @@
+//c++ program to demostrate working a funtion
+#include <iostream>
+using namespace std;
+//following function that takes two parameters 'x' and 'y' as inputs and returns max of two teo input number
+int max(int x,int y)
+{
+  if(x>y)
+  return x;
+  else
+  return y;
+}
+//main function that doesn't recieve any parameter and returns integers
+int main()
+{
+  int a=13, b=20;
+  //calling above fuction to find max of 'a'and 'b'
+  int m=max(a,b);
+  cout<<"m is "<<m;
+  return 0;
+}
