@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int num=2; //changed variable name from 'value to num'
+//correct way to assign the address of num of the pointer
+int* ptr=&num;
+//output the address of 'num' using the pointer
+cout<<"Address of num ->"<<&num<<endl;
+cout<<"Address stored in pointer ->"<<ptr<<endl;
+//output the value of 'num' using the pointer reference
+cout<<"Value of num ->" <<num <<endl;
+cout<<"Value of using pointer ->" << *ptr <<endl;
+return 0;
+}
